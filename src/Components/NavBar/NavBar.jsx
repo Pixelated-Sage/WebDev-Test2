@@ -11,7 +11,6 @@ const NavBar = () => {
             theme === "light" ? "bg-white border-gray-200" : "bg-gray-900 border-gray-800"
           } transition-all duration-300 ease-in-out`}>
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-              {/* Logo/Brand */}
               <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                 <span className={`text-2xl font-extrabold ${
                   theme === "light" ? "text-gray-900" : "text-white"
